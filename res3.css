@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after{
+    content: "";
+    display:block;
+    clear:both;}
+    .clear-width{
+        width: 992px;
+        margin: auto;
+    }
+
+.header{
+    background-color:#34495e;
+   
+}
+.headrer-left{
+    float: left;
+    width: 30%;
+}
+.headrer-left img{
+    width: 156px;
+    height:auto;
+}
+.headrer-right{
+    float: right;
+    width: 70%;
+}
+.headrer-right ul{
+    text-align: right;
+}
+.headrer-right ul li{
+    display: inline-block;
+}
+.headrer-right ul li a{
+    display: block;
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-family: Arial;
+    padding:0 30px;
+    line-height: 60px;
+}
+.banner{
+    background: url(banner2.png) no-repeat center;
+    background-size:cover;
+    padding: 160px;
+}
+.text-center{
+    text-align:center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.banner-caption h2{
+    background: #636e72;
+    display:inline-block;
+    color: white;
+    padding:5px;
+    border-radius: 5px;
+}
+.banner-caption h1{
+    background: #74b9ff;
+    max-width: 408px;
+    color: white;
+    margin: auto;
+    padding: 5px 2px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;}
+
+    .about{
+        margin-top:40px;
+    }
+    
+    .about h2{}
+    .about p{
+        width: 700px;
+        margin: auto;
+        font-size: 20px;
+        margin-top: 16px;
+        font-size: 17px;
+    }
+    /*service*/
+.service{
+    margin-top: 20px;
+ 
+}
+.service-item{
+    width: 31%;
+    float: left;
+    border: 1px solid rgb(209, 203, 203);
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
+.service-item span{
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: #74b9ff;
+    line-height: 60px;
+    margin: auto;
+    border-radius: 0 20px;
+    font-size: 30px;
+    color: white;
+}
+.service-item h3{
+    margin-top: 10px;
+}
+.blog-left{
+    float: left;
+    width: 65%;
+}
+.blog-right{
+    width: 30%;
+    float: right;
+}
+.blog-left img{
+    width: 150px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+}
+.blog-content{
+    margin-bottom: 30px;
+}
+.blog-item{
+    margin: 60px 0;
+}
+.blog-noti{
+    
+}
+.blog-noti h2{
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+}
+.blog-noti ul{
+    list-style: none;
+}
+.blog-noti ul li{
+    border: 1px solid rgb(209, 203, 203);
+    padding: 14px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: cornsilk;
+}
+.blog-noti ul li a{
+    color: black;
+    padding: 17px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/*fotter*/
+.fotter{
+    background-color: #34495e;
+    padding: 30px;
+ }
+ .fotter-left{
+     width: 40%;
+     float: left;
+ }
+ .fotter-left h4{
+     color: white;
+ }
+ .fotter-right{
+     width: 60%;
+     float: right;
+ }
+ .social-icon{
+     text-align: right;
+ }
+ .social-icon li{
+     display: inline-block;
+     text-align: right;
+ }
+ .social-icon li a{
+     color: white;
+ }
+
+
+@media screen and (max-width:1160px){
+    .clear-width{
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+    }
+    .blog-item {
+        margin: 21px;
+    }
+}
+
+@media screen and (max-width:994px){
+    .clear-width{
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+    }
+}
+@media screen and (max-width:862px){
+    .headrer-right{
+       width:100%;
+    }
+    .headrer-left{
+       width:100%;
+    }
+    .headrer-left {
+        width: 100%;
+        text-align: center;
+    }
+   .headrer-right ul li a {
+    font-size: 17px;
+}
+.headrer-right ul {
+    text-align: center;
+}
+.banner {
+   
+    padding: 61px;
+}
+.about p {
+    width: 100%;
+    margin: auto;
+ 
+    margin-top: 0px;
+    
+}
+.service-item {
+    width: 100%;
+    text-align: center;
+}
+.service {
+    margin-top: 17px;
+    margin-right: 21px;
+}
+.service-item h3 {
+    margin-top: 10px;
+    font-size: 44px;
+}
+.service-item p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+.blog-left{
+  
+    width: 100%;
+    max-width: 100%;
+}
+.blog-right{
+     width: 100%;
+    max-width: 100%;
+}
+.blog-item {
+    margin: 19px;
+}
+.blog-content p {
+    font-size: 20px;
+}
+}
+
+    
+
